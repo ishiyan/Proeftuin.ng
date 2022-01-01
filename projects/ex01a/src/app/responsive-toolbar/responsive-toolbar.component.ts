@@ -11,45 +11,27 @@ export class ResponsiveToolbarComponent {
   menuItems: MenuItem[] = [
     {
       label: 'Sign Up',
-      icon: 'login',
-      showOnMobile: true,
-      showOnTablet: true,
-      showOnDesktop: true
+      icon: 'login'
     },
     {
       label: 'About',
-      icon: 'help',
-      showOnMobile: false,
-      showOnTablet: true,
-      showOnDesktop: true
+      icon: 'help'
     },
     {
       label: 'Pricing',
-      icon: 'attach_money',
-      showOnMobile: false,
-      showOnTablet: false,
-      showOnDesktop: true
+      icon: 'attach_money'
     },
     {
       label: 'Docs',
-      icon: 'notes',
-      showOnMobile: false,
-      showOnTablet: true,
-      showOnDesktop: true
+      icon: 'notes'
     },
     {
       label: 'Showcase',
-      icon: 'slideshow',
-      showOnMobile: false,
-      showOnTablet: false,
-      showOnDesktop: true
+      icon: 'slideshow'
     },
     {
       label: 'Blog',
-      icon: 'rss_feed',
-      showOnMobile: false,
-      showOnTablet: false,
-      showOnDesktop: false
+      icon: 'rss_feed'
     },
   ];
 }

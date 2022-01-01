@@ -4,7 +4,11 @@
 
 | Project     | Description |
 | ----------- | ----------- |
-| `ex01`      | [A responsive navbar using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
+| `ex01a`      | [A responsive navbar using a Flex Layout: part 1](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
+| `ex01b`      | [A responsive navbar using a Flex Layout: part 2](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
+| `ex02`      | [A responsive sidebar menu with Angular Material](https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/) |
+| `ex03`      | [A responsive card grid using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/) |
+| `ex04`      | [A responsive pure CSS masonry layout](https://codepen.io/airen/pen/jmEzEm) |
 
 ## Updating
 
