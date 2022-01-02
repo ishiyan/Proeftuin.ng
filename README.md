@@ -2,13 +2,16 @@
 
 ## Projects in this monorepo
 
-| Project     | Description |
-| ----------- | ----------- |
-| `ex01a`      | [A responsive navbar using a Flex Layout: part 1](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
-| `ex01b`      | [A responsive navbar using a Flex Layout: part 2](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
-| `ex02`      | [A responsive sidebar menu with Angular Material](https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/) |
-| `ex03`      | [A responsive card grid using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/) |
-| `ex04`      | [A responsive pure CSS masonry layout](https://codepen.io/airen/pen/jmEzEm) |
+| Project | Description |
+| ------- | ----------- |
+| `ex01a` | [A responsive navbar using a Flex Layout: part 1](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
+| `ex01b` | [A responsive navbar using a Flex Layout: part 2](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
+| `ex02`  | [A responsive sidebar menu with Angular Material](https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/) |
+| `ex03`  | [A responsive card grid using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/) |
+| `ex03b` | [Fastest way to make a responsive card grid with CSS](https://zoaibkhan.com/blog/fastest-way-to-make-a-responsive-card-grid-with-css/) |
+| `ex04`  | [A responsive pure CSS masonry layout](https://codepen.io/airen/pen/jmEzEm) |
+| `ex05a` | [A multi-select chips component based on Angular Material](https://zoaibkhan.com/blog/create-a-multi-select-chips-component-with-angular-material/) |
+| `ex05b` | [Angular Material multi-select chips](https://stackblitz.com/edit/angular-ivy-fo2gjf?file=src%2Fapp%2Fapp.component.html) |
 
 ## Updating
 

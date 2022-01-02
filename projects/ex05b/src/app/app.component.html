@@ -1,0 +1,19 @@
+<!--
+<mat-form-field>
+	<mat-chip-list selectable multiple [formControl]="chipsControl">
+		<mat-chip #chip="matChip" (click)="chip.toggleSelected()"
+			*ngFor="let option of ['Option 1', 'Option 2', 'Option 3']">
+			{{option}}
+		</mat-chip>
+	</mat-chip-list>
+</mat-form-field>
+-->
+
+<mat-chip-list selectable multiple [formControl]="chipsControl">
+	<mat-chip #chip="matChip" (click)="chip.toggleSelected(true)"
+		*ngFor="let option of ['Option 1', 'Option 2', 'Option 3']">
+		{{option}}
+	</mat-chip>
+</mat-chip-list>
+<br />
+<div>Value: {{chipsValue$ | async}}</div>
