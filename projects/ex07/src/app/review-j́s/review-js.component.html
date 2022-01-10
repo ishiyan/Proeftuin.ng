@@ -1,0 +1,15 @@
+<div fxLayout="row" class="card-back" fxLayoutGap="16px">
+	<div fxFlex="80px">
+		<img src="https://firebasestorage.googleapis.com/v0/b/web-tuts-611b3.appspot.com/o/profile.jpg?alt=media&token=12d87a30-0b38-4bff-abc8-cad745e4dd05">
+</div>
+		<div>
+			<h4>Brian</h4>
+			<p #ellipsisRef ellipsis (ellipsis-change)="truncated($event)" [ngClass]="{ 'line-clamp': !showMore }">
+        This product was not very satisfactory. I was disappointed with a lot of things. But the
+		biggest was its shoddy packaging. I received damaged goods. Please beware of sellers on this site, not all of
+		them are trusted!
+      </p>
+			<span class="more" *ngIf="!showMoreButton" (click)="showComplete()">Show more</span>
+		</div>
+	</div>
+  <br>

@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h4, p {
+  margin: 0;
+}
+
+.card-back {
+  background: rgba(0,0,0,0.05);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.review-text {
+  min-width: 0;
+}
+
+.more {
+  font-size: 0.8rem;
+  color: gray;
+  cursor: pointer;
+}

@@ -12,6 +12,8 @@
 | `ex04`  | [A responsive pure CSS masonry layout](https://codepen.io/airen/pen/jmEzEm) |
 | `ex05a` | [A multi-select chips component based on Angular Material](https://zoaibkhan.com/blog/create-a-multi-select-chips-component-with-angular-material/) |
 | `ex05b` | [Angular Material multi-select chips](https://stackblitz.com/edit/angular-ivy-fo2gjf?file=src%2Fapp%2Fapp.component.html) |
+| `ex06`  | [Angular Material Dark Mode](https://zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/) |
+| `ex07`  | [Truncate multiple line text in Angular](https://zoaibkhan.com/blog/truncate-multiple-line-text-in-angular-like-a-pro/) |
 
 ## Updating
 
