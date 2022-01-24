@@ -14,6 +14,7 @@
 | `ex05b` | [Angular Material multi-select chips](https://stackblitz.com/edit/angular-ivy-fo2gjf?file=src%2Fapp%2Fapp.component.html) |
 | `ex06`  | [Angular Material Dark Mode](https://zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/) |
 | `ex07`  | [Truncate multiple line text in Angular](https://zoaibkhan.com/blog/truncate-multiple-line-text-in-angular-like-a-pro/) |
+| `ex08`  | [Reusable Confirmation Dialogs with Angular Material](https://zoaibkhan.com/blog/create-reusable-confirmation-dialogs-with-angular-material/) |
 
 ## Updating
 
