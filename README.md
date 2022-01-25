@@ -15,6 +15,7 @@
 | `ex06`  | [Angular Material Dark Mode](https://zoaibkhan.com/blog/angular-material-dark-mode-in-3-steps/) |
 | `ex07`  | [Truncate multiple line text in Angular](https://zoaibkhan.com/blog/truncate-multiple-line-text-in-angular-like-a-pro/) |
 | `ex08`  | [Reusable Confirmation Dialogs with Angular Material](https://zoaibkhan.com/blog/create-reusable-confirmation-dialogs-with-angular-material/) |
+| `ex09`  | [Create Dynamic Form Controls in Angular with FormArray](https://zoaibkhan.com/blog/create-dynamic-form-controls-in-angular-with-formarray/) |
 
 ## Updating
 

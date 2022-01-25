@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+    Angular Dynamic Form Controls with FormArray
+</mat-toolbar>
+
+<div class="container">
+    <h2>Please add as many hobbies as you want below.</h2>
+    <div class="input-row" *ngFor="let hobby of hobbiesArray.controls; index as idx; last as isLast">
+        <mat-form-field>
+            <input matInput [formControl]="hobby">
+            <mat-error *ngIf="hobby.errors?.required">Please enter a hobby</mat-error>
+        </mat-form-field>
+        <button mat-icon-button color="warn" *ngIf="hobbiesArray.length > 1" (click)="removeInputControl(idx)">
+            <mat-icon>remove_circle</mat-icon>
+        </button>
+        <button mat-icon-button color="primary" *ngIf="isLast" (click)="addInputControl()">
+            <mat-icon>add_circle</mat-icon>
+        </button>
+    </div>
+
+    <h2 class="margin-top">Form Value</h2>
+    <div>{{hobbiesArray.valueChanges | async | json}}</div>
+</div>
