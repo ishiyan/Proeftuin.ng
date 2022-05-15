@@ -1,0 +1,12 @@
+<ex11-simple-sidenav
+  [menu]="menu"
+  [withArrow]="true"
+  [activeID]="activeID"
+  [animation]="{
+    in: {value: 'slide-in-stagger'},
+    out: {value: 'slide-out'}
+  }"
+  (onSidenav)="onSidenavClick($event)"></ex11-simple-sidenav>
+<router-outlet></router-outlet>
+
+<button (click)="changeActive()">Trigger Active</button>

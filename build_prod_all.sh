@@ -49,3 +49,7 @@ echo ex09: Create Dynamic Form Controls in Angular with FormArray
 echo ///////////////////////////////////////////////////////////
 echo ex10: How to add Async Validation to Angular Reactive Forms
 ./node_modules/.bin/ng build ex10
+
+echo ///////////////////////////////////////////////////////////
+echo ex11: Simple sidenav
+./node_modules/.bin/ng build ex11

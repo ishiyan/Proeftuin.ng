@@ -17,6 +17,7 @@
 | `ex08`  | [Reusable Confirmation Dialogs with Angular Material](https://zoaibkhan.com/blog/create-reusable-confirmation-dialogs-with-angular-material/) |
 | `ex09`  | [Create Dynamic Form Controls in Angular with FormArray](https://zoaibkhan.com/blog/create-dynamic-form-controls-in-angular-with-formarray/) |
 | `ex10`  | [How to add Async Validation to Angular Reactive Forms](https://zoaibkhan.com/blog/how-to-add-async-validation-to-angular-reactive-forms/) |
+| `ex11`  | [Simple sidenav](https://github.com/codica2/simple-sidenav) |
 
 ## Updating
 
