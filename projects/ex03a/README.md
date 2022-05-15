@@ -156,7 +156,7 @@ Notice the `fxFlex.*` directives I’ve added.
 For mobile screens, I want just one card in a row, so the width is 100%.
 And for tablet sizes, I want it to be just three cards so we use 33% (100/3).
 
-And voila! Run `ng serve ex03`, go into Developer tools and then see how the layout adjusts itself to screen size.
+And voila! Run `ng serve ex03a`, go into Developer tools and then see how the layout adjusts itself to screen size.
 
 ## Bonus: Change number of cards in a row dynamically
 
@@ -239,7 +239,7 @@ Note, we’re only doing this for the default `fxFlex`, since we only want it to
 The great thing about flex layout is that you can add these breakpoint suffixes to just about any directive thus making it responsive.
 So you can add expressions and variables for all breakpoints if that is what you need!
 
-If you run `ng serve ex03` now and have a large enough screen size, you’ll see a column slider control.
+If you run `ng serve ex03a` now and have a large enough screen size, you’ll see a column slider control.
 When you change its value, our responsive card grid will also change, almost magically!
 
 ## How can we display different images?

@@ -315,7 +315,7 @@
         }
       }
     },
-    "ex03": {
+    "ex03a": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -344,25 +344,25 @@
           "strict": true
         }
       },
-      "root": "projects/ex03",
-      "sourceRoot": "projects/ex03/src",
-      "prefix": "ex03",
+      "root": "projects/ex03a",
+      "sourceRoot": "projects/ex03a/src",
+      "prefix": "ex03a",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ex03",
-            "index": "projects/ex03/src/index.html",
-            "main": "projects/ex03/src/main.ts",
-            "polyfills": "projects/ex03/src/polyfills.ts",
-            "tsConfig": "projects/ex03/tsconfig.app.json",
+            "outputPath": "dist/ex03a",
+            "index": "projects/ex03a/src/index.html",
+            "main": "projects/ex03a/src/main.ts",
+            "polyfills": "projects/ex03a/src/polyfills.ts",
+            "tsConfig": "projects/ex03a/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
-              "projects/ex03/src/favicon.ico",
-              "projects/ex03/src/assets"
+              "projects/ex03a/src/favicon.ico",
+              "projects/ex03a/src/assets"
             ],
             "styles": [
-              "projects/ex03/src/styles.scss"
+              "projects/ex03a/src/styles.scss"
             ],
             "scripts": []
           },
@@ -382,8 +382,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "projects/ex03/src/environments/environment.ts",
-                  "with": "projects/ex03/src/environments/environment.prod.ts"
+                  "replace": "projects/ex03a/src/environments/environment.ts",
+                  "with": "projects/ex03a/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -403,10 +403,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ex03:build:production"
+              "browserTarget": "ex03a:build:production"
             },
             "development": {
-              "browserTarget": "ex03:build:development"
+              "browserTarget": "ex03a:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -414,7 +414,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ex03:build"
+            "browserTarget": "ex03a:build"
           }
         }
       }
@@ -1247,6 +1247,110 @@
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
             "browserTarget": "ex09:build"
+          }
+        }
+      }
+    },
+    "ex10": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss",
+          "skipTests": true
+        },
+        "@schematics/angular:class": {
+          "skipTests": true
+        },
+        "@schematics/angular:directive": {
+          "skipTests": true
+        },
+        "@schematics/angular:guard": {
+          "skipTests": true
+        },
+        "@schematics/angular:interceptor": {
+          "skipTests": true
+        },
+        "@schematics/angular:pipe": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "projects/ex10",
+      "sourceRoot": "projects/ex10/src",
+      "prefix": "ex10",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/ex10",
+            "index": "projects/ex10/src/index.html",
+            "main": "projects/ex10/src/main.ts",
+            "polyfills": "projects/ex10/src/polyfills.ts",
+            "tsConfig": "projects/ex10/tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "projects/ex10/src/favicon.ico",
+              "projects/ex10/src/assets"
+            ],
+            "styles": [
+              "projects/ex10/src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "projects/ex10/src/environments/environment.ts",
+                  "with": "projects/ex10/src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "ex10:build:production"
+            },
+            "development": {
+              "browserTarget": "ex10:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "ex10:build"
           }
         }
       }

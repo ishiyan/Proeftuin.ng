@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+    Angular Async Validation
+  </mat-toolbar>
+  
+  <div class="container">
+    <mat-form-field appearance="fill">
+      <mat-label>Email address</mat-label>
+      <input matInput [formControl]="emailControl">
+      <mat-error *ngIf="emailControl.errors?.['required']">
+        This field is required
+      </mat-error>
+      <mat-error *ngIf="emailControl.errors?.['email']">
+        Please enter a valid email address
+      </mat-error>
+      <mat-error *ngIf="emailControl.errors?.['emailExists']">
+        This email address is already registered. Please use another one.
+      </mat-error>
+      <mat-progress-spinner *ngIf="emailControl.pending" matSuffix [mode]="'indeterminate'" [diameter]="20">
+      </mat-progress-spinner>
+    </mat-form-field>
+  </div>
+  

@@ -45,3 +45,7 @@ echo ex08: Reusable Confirmation Dialogs with Angular Material
 echo ///////////////////////////////////////////////////////////
 echo ex09: Create Dynamic Form Controls in Angular with FormArray
 ./node_modules/.bin/ng build ex09
+
+echo ///////////////////////////////////////////////////////////
+echo ex10: How to add Async Validation to Angular Reactive Forms
+./node_modules/.bin/ng build ex10

@@ -7,7 +7,7 @@
 | `ex01a` | [A responsive navbar using a Flex Layout: part 1](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
 | `ex01b` | [A responsive navbar using a Flex Layout: part 2](https://zoaibkhan.com/blog/create-a-responsive-toolbar-in-angular-using-flex-layout/) |
 | `ex02`  | [A responsive sidebar menu with Angular Material](https://zoaibkhan.com/blog/create-a-responsive-sidebar-menu-with-angular-material/) |
-| `ex03`  | [A responsive card grid using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/) |
+| `ex03a`  | [A responsive card grid using a Flex Layout](https://zoaibkhan.com/blog/create-a-responsive-card-grid-in-angular-using-flex-layout-part-1/) |
 | `ex03b` | [Fastest way to make a responsive card grid with CSS](https://zoaibkhan.com/blog/fastest-way-to-make-a-responsive-card-grid-with-css/) |
 | `ex04`  | [A responsive pure CSS masonry layout](https://codepen.io/airen/pen/jmEzEm) |
 | `ex05a` | [A multi-select chips component based on Angular Material](https://zoaibkhan.com/blog/create-a-multi-select-chips-component-with-angular-material/) |
@@ -16,6 +16,7 @@
 | `ex07`  | [Truncate multiple line text in Angular](https://zoaibkhan.com/blog/truncate-multiple-line-text-in-angular-like-a-pro/) |
 | `ex08`  | [Reusable Confirmation Dialogs with Angular Material](https://zoaibkhan.com/blog/create-reusable-confirmation-dialogs-with-angular-material/) |
 | `ex09`  | [Create Dynamic Form Controls in Angular with FormArray](https://zoaibkhan.com/blog/create-dynamic-form-controls-in-angular-with-formarray/) |
+| `ex10`  | [How to add Async Validation to Angular Reactive Forms](https://zoaibkhan.com/blog/how-to-add-async-validation-to-angular-reactive-forms/) |
 
 ## Updating
 
