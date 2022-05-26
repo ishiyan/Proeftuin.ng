@@ -11,8 +11,8 @@ echo ex02: A responsive sidebar menu with Angular Material
 ./node_modules/.bin/ng build ex02
 
 echo ///////////////////////////////////////////////////////////
-echo ex03: A responsive card grid using a Flex Layout
-./node_modules/.bin/ng build ex03
+echo ex03a: A responsive card grid using a Flex Layout
+./node_modules/.bin/ng build ex03a
 
 echo ///////////////////////////////////////////////////////////
 echo ex03b: Fastest way to make a responsive card grid with CSS

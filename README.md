@@ -67,5 +67,3 @@ ng generate service feature1/second --project=myapp
 
 ng serve myapp
 ```
-
-
