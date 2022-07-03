@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormArray, FormControl, Validators } from '@angular/forms';
+import { UntypedFormArray, UntypedFormControl, Validators } from '@angular/forms';
 
 @Component({
   selector: 'ex09-root',
@@ -7,10 +7,10 @@ import { FormArray, FormControl, Validators } from '@angular/forms';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  hobbiesArray = new FormArray([new FormControl('', Validators.required)]);
+  hobbiesArray = new UntypedFormArray([new UntypedFormControl('', Validators.required)]);
 
   addInputControl() {
-    this.hobbiesArray.push(new FormControl('', Validators.required));
+    this.hobbiesArray.push(new UntypedFormControl('', Validators.required));
   }
 
   removeInputControl(idx: number) {

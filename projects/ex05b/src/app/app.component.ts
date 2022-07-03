@@ -1,5 +1,5 @@
 import { Component, VERSION } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 
 @Component({
   selector: 'ex05-root',
@@ -9,6 +9,6 @@ import { FormControl } from '@angular/forms';
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
 
-  chipsControl = new FormControl('');
+  chipsControl = new UntypedFormControl('');
   chipsValue$ = this.chipsControl.valueChanges;
 }

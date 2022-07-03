@@ -1460,5 +1460,7 @@
       }
     }
   },
-  "defaultProject": "ex01a"
+  "cli": {
+    "analytics": false
+  }
 }

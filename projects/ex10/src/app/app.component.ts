@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { UntypedFormControl, Validators } from '@angular/forms';
 import { UserService } from './services/user.service';
 
 @Component({
@@ -10,7 +10,7 @@ import { UserService } from './services/user.service';
 export class AppComponent {
   constructor(private userService: UserService) {}
 
-  emailControl = new FormControl('', {
+  emailControl = new UntypedFormControl('', {
     validators: [Validators.required, Validators.email],
     asyncValidators: this.userService.uniqueEmailValidator(),
     updateOn: 'blur',

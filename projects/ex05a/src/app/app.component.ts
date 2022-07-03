@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 import { tap } from 'rxjs/operators';
 
@@ -12,11 +12,11 @@ import { tap } from 'rxjs/operators';
 export class AppComponent {
   options = ['Clothing', 'Shoes', 'Electronics', 'Books', 'Magazines'];
 
-  chipsControl = new FormControl(['Books']);
+  chipsControl = new UntypedFormControl(['Books']);
 
   chipsControlValue$ = this.chipsControl.valueChanges;
 
-  disabledControl = new FormControl(false);
+  disabledControl = new UntypedFormControl(false);
 
   setChipsValue() {
     this.chipsControl.setValue(['Shoes', 'Electronics']);
