@@ -7,7 +7,7 @@ import { Component, NgZone } from '@angular/core';
 })
 export class AppComponent {
   progress: number = 0;
-  label: string;
+  label!: string;
 
   constructor(private ngzone: NgZone) {}
 
@@ -37,7 +37,7 @@ export class AppComponent {
     console.log(`Current progress: ${this.progress}%`);
 
     if (this.progress < 100) {
-      window.setTimeout(() => this._increaseProgress(doneCallback), 10);
+      window.setTimeout(() => this.increaseProgress(doneCallback), 10);
     } else {
       doneCallback();
     }

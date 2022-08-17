@@ -3,5 +3,6 @@
 <p>Progress: {{progress}}%</p>
 <p *ngIf="progress >= 100">Done processing {{label}} of Angular zone!</p>
 
-<button (click)="processWithinAngularZone()">Process within Angular zone</button>
-<button (click)="processOutsideOfAngularZone()">Process outside of Angular zone</button>
+<button mat-raised-button color="primary" (click)="processWithinAngularZone()">Process within Angular zone</button>
+&nbsp;
+<button mat-raised-button color="accent" (click)="processOutsideOfAngularZone()">Process outside of Angular zone</button>
