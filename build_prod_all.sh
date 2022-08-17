@@ -53,3 +53,7 @@ echo ex10: How to add Async Validation to Angular Reactive Forms
 echo ///////////////////////////////////////////////////////////
 echo ex11: Simple sidenav
 ./node_modules/.bin/ng build ex11
+
+echo ///////////////////////////////////////////////////////////
+echo ex12: NgZone example
+./node_modules/.bin/ng build ex12
