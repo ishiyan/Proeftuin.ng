@@ -19,7 +19,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2020",
+    "target": "ES2022",
     "module": "es2020",
     "lib": [
       "es2020",
@@ -28,10 +28,9 @@
     "typeRoots": [
       "node_modules/@types"
     ],
-    "types": [
-    ],
-    "paths": {
-    }
+    "types": [],
+    "paths": {},
+    "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
     "enableIvy": true,
